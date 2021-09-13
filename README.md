@@ -1,4 +1,4 @@
-This is a basic docker container stack to quickly start projects with vue, vite and tailwind on the front and headless wordpress rest API on the back.
+A basic docker container stack to quickly start projects with vue, vite and tailwind on the front and wordpress rest API on the back.
 
 Steps to setup:  
 1. Create docker network

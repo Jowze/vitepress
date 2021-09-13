@@ -37,15 +37,12 @@ services:
     container_name: node
     working_dir: '/var/www/app'
     ports:
-      - '3000:3000'
+      - 3000:3000
     volumes:
       - ./app:/var/www/app
     networks:
       - wp_vue
     command: bash -c "npm install && npm run dev"
 
-volumes:
-  wordpress:
-  db:
 networks:
   wp_vue:
